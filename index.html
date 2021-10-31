@@ -8,6 +8,21 @@
   <title>Booking Website</title>
 </head>
 <body>
-  
+  <h1>Appointment Booking Form</h1>
+  <div class="container">
+    <form id="appt-form">
+      <label for="name1">Name:</label><br>
+      <input id="name1" type="text"><br>
+      <label for="description1">Appointment Description:</label><br>
+      <!-- <input id="description1" class="description-text" type="text"><br> -->
+      <textarea id="description1" rows="4" cols="30">Enter description here...</textarea><br>
+      <label for="appt-date">Date:</label><br>
+      <input id="appt-date" type="date"><br>
+      <label for="time1" type="text">Appointment Time:</label><br>
+      <input id="time1" type="time" min="09:00" max="17:00"><br><br>
+      <input type="submit" id="submit-btn" value="Submit!">
+      <div id="output">Thank you for booking</div>
+    </form>
+  </div>
 </body>
 </html>
